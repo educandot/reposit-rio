@@ -3,22 +3,29 @@
  <head>
 <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa
- 4+BSgNMNl8v77fdC77Kl55ztWFJaaAoMbC" crossorigin="anonymous">
- <title>Portifólio</title> <h1>Oi, meu nome é Eduardo!</h1>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet">
+ <title>Portifólio</title>
  </head>
  <body> 
-    <p>Olá, eu sou Eduardo Candoti dos Santos, um profissional apaixonado por desafios e sempre em busca de aprendizado constante.
-         Sou uma pessoa dedicada, criativa e com grande capacidade de adaptação. Tenho facilidade em trabalhar em equipe, resolução de problemas e atenção aos detalhes.
-          Minha paixão pela área tecnológica me impulsiona a sempre buscar soluções inovadoras e eficientes. 
-    </p>
-     <p> Meus hobbies </p> 
-     <div> 
-     <p>Ver filmes</p>
-     <p>Jogar jogos</p> 
-     <p>Ouvir música</p> 
-     <p>futebol</p> 
-    <p>mexer no cll</p> 
-    </div> 
-     </body> 
-    </html>
+ <header class="container text-center">
+      <img src="img/edu.jpg" alt=" uma imagem de Eduardo"width="200" height="200" class="rounded-circle" >
+
+      <h1 class="lead">Oi, meu nome é Eduardo!</h1>
+     
+            <p>Olá, eu sou Eduardo Candoti dos Santos, um profissional apaixonado por desafios e sempre em busca de aprendizado constante.
+                  Sou uma pessoa dedicada, criativa e com grande capacidade de adaptação. Tenho facilidade em trabalhar em equipe, resolução de problemas e atenção aos detalhes.
+                   Minha paixão pela área tecnológica me impulsiona a sempre buscar soluções inovadoras e eficientes. 
+             </p>
+              <p> Meus hobbies </p> 
+              <div> 
+              <p class="badge bg-secondary">Ver filmes</p>
+              <p class="badge bg-secondary">Jogar jogos</p> 
+              <p class="badge bg-secondary">Ouvir música</p> 
+             <p class="badge bg-secondary">Mexer no celular</p> 
+             </div> 
+      </header>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu" crossorigin="anonymous"></script>
+            
+      </body>
+</html>
+    
